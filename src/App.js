@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import NavBar from './components/NavBar';
+import Newss from './components/Newss';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        Hello Sourav
+        <NavBar/>
+        <Newss/>
       </div>
     )
   }
